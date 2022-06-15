@@ -1,0 +1,121 @@
+/* body */
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* header */
+
+header {
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 40px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(31, 77%, 52%);
+}
+
+/* main */
+main {
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.column-one {
+    width: 100%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.column-two {
+    width: 100%;
+    background-color:  hsl(184, 100%, 22%);
+    padding: 50px;
+    border-radius: 0;
+}
+
+.column-three {
+    width: 100%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.box-btn1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+.box-btn2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+.box-btn3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+button:hover {
+    background-color: hsla(179, 100%, 13%, 0);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
